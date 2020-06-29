@@ -21,26 +21,23 @@ public class Calculator {
         {
             case '+':
                 total = number1 + number2;
-                System.out.println(total);
+                System.out.println("Result: " + total);
                 break;
             case '-':
                 total = number1 - number2;
-                System.out.println(total);
+                System.out.println("Result: " + total);
                 break;
             case '*':
                 total = number1 * number2;
-                System.out.println(total);
+                System.out.println("Result: " + total);
                 break;
             case '/':
                 total = number1 / number2;
-                System.out.println(total);
+                System.out.println("Result: " + total);
                 break;
             default:
                 System.out.println("Error: Invalid operator.");
                 break;
         }
-
-
-
     }
 }
